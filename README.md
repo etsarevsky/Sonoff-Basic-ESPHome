@@ -1,0 +1,2 @@
+# Sonoff Basic ESPHome
+ 
