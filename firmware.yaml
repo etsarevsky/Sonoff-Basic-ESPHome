@@ -3,21 +3,26 @@ esphome:
   platform: ESP8266
   board: esp01_1m
 
+
+# Укажите имя вашей Wi-Fi сети и пароль
+
 wifi:
   ssid: "Wi-Fi Name"
   password: "Password"
 
-  # Enable fallback hotspot (captive portal) in case wifi connection fails
+# Создавать точку доступа если не получается подключится в Wi-Fi сети
+# Укажите имя и пароль для точки доступа
+
   ap:
     ssid: "Sonoff Fallback Hotspot"
     password: "Password"
 
 captive_portal:
 
-# Enable logging
+# Включить logging
 logger:
 
-# Enable Home Assistant API
+# Включить Home Assistant API
 api:
 
 ota:
